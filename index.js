@@ -71,8 +71,8 @@ app.use("/api/user", userRouter);
 app.use("/api/property",PropertRouter);
 app.use("/api/booking",Bookingrouter);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
-})
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => {
+//   console.log(`✅ Server running on http://localhost:${PORT}`);
+// })
 export default app;
